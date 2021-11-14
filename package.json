@@ -1,13 +1,13 @@
 {
-  "name": "rubicon-bathusdc-subgraph",
+  "name": "rubicon-bathusdc",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ platocrat/rubicon-bathusdc-subgraph",
-    "create-local": "graph create --node http://localhost:8020/ rubicon-bathusdc-subgraph",
-    "remove-local": "graph remove --node http://localhost:8020/ rubicon-bathusdc-subgraph",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 rubicon-bathusdc-subgraph"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ platocrat/rubicon-bathusdc",
+    "create-local": "graph create --node http://localhost:8020/ rubicon-bathusdc",
+    "remove-local": "graph remove --node http://localhost:8020/ rubicon-bathusdc",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 rubicon-bathusdc"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.22.2",
